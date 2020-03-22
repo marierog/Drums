@@ -1,0 +1,49 @@
+h1{
+	color: grey;
+}
+
+body{
+	background-image: url("https://images.unsplash.com/photo-1537930385926-b88db6f104a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+.key{
+	float: left;
+	border: 3px solid black;
+	border-radius: 5px;
+	width: 60px;
+	height: 40px;
+	margin-left: 15px;
+	text-align: center;
+	margin-top: 25%;
+	color: white;
+	font-weight: bold;
+	background-color: rgb(139, 128, 107, 0.5);
+	padding-top: 10px;
+	font-size: 20px;
+
+	transition:all 0.07s;
+}
+
+.key-pressed{
+	border: 3px solid yellow;
+	box-shadow: 0 0 10px #EFF55D;
+
+	/*amdenjer gazrdis*/
+	transform:scale(1.2); 
+}
+
+div:nth-of-type(1){
+	margin-left:27%;
+}
+
+.sound{
+	margin: 0;
+	color: #C00A0A;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+
